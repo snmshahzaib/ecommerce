@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Add Products</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/AddProducts.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://www.cssscript.com/demo/animated-customizable-range-slider-pure-javascript-rslider-js/css/rSlider.min.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://kit.fontawesome.com/55d5179fd9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid" style="background-color: #f1f5f7;">
+		<div class="row" style="background-color: #f1f5f7;">
+			<div class="col-12">
+				<div class="page-title-box d-flex align-items-center justify-content-between">
+					<h4 class="mb-0">ECOMMERCE</h4>
+					<div class="page-title-right">
+						<nav class="breadcrumb" aria-label="breadcrumb">
+							<ol class="breadcrumb m-0">
+								<li class="breadcrumb-item">
+									<a href="#">Ecommerce</a>
+								</li>
+								<li class="active breadcrumb-item" aria-current="page">Add Products</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="card pb-3 mb-3">
+					<div class="card-body">
+						<div id="checkout-nav-pills-wizard" class="twitter-wizard">
+							<ul class="nav nav-pills twitter-wizard-nav nav-justified" role="tablist">
+								<li class="nav-item">
+									<a class="nav-link active" data-toggle="pill" href="#home">
+										<span class="step-number">01</span>
+										<span class="step-title">Basic Info</span>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#menu1">
+										<span class="step-number">02</span>
+										<span class="step-title">Product Img</span>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" data-toggle="pill" href="#menu2">
+										<span class="step-number">03</span>
+										<span class="step-title">Meta Data</span>
+									</a>
+								</li>
+							</ul>
+							<!-- Tab panes -->
+							<div class="tab-content twitter-wizard-tab-content">
+								<div id="home" class="tab-pane active"><br>
+									<div class="h5 card-title">Basic Information</div>
+									<p class="card-title-desc">Fill in all information below</p>
+									<form>
+										<div class="mb-3">
+											<label for="productname" class="form-label">Product Name</label>
+											<input id="productname" name="productname" type="text" class="form-control form-control">
+										</div>
+										<div class="row">
+											<div class="col-lg-4">
+												<div class="mb-3">
+													<label for="manufacturername" class="form-label">Manufacturer Name</label>
+													<input id="manufacturername" name="manufacturername" type="text" class="form-control form-control">
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="mb-3">
+													<label for="manufacturerbrand" class="form-label">Manufacturer Brand</label>
+													<input id="manufacturerbrand" name="manufacturerbrand" type="text" class="form-control form-control">
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="mb-3">
+													<label for="price" class="form-label">Price</label>
+													<input id="price" name="price" type="text" class="form-control form-control">
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6">
+												<div class="mb-3">
+													<label class="form-label">Category</label>
+													<select class="form-control select2">
+														<option>Select</option>
+														<option value="EL">Electronic</option>
+														<option value="FA">Fashion</option>
+														<option value="FI">Fitness</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="mb-3">
+													<label class="form-label">Features</label>
+													<select class="form-control select2">
+														<option>Choose</option>
+														<option value="Alaska">Alaska</option>
+														<option value="Havaii">Havaii</option>
+														<option value="California">California</option>
+														<option value="Naveda">Naveda</option>
+														<option value="Oregon">Oregon</option>
+														<option value="Washington">Washington</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="mb-3">
+											<label class="form-label" for="productdesc">Product Description</label>
+											<textarea class="form-control" id="productdesc" rows="5"></textarea>
+										</div>
+									</form>
+								</div>
+								<div id="menu1" class="tab-pane fade"><br>
+									<div class="h4 card-title">Product Images</div>
+									<p class="card-title-desc">Upload product image</p>
+									<form class="dropzone">
+										<div>
+											<div class="dz-message needsclick" tabindex="0">
+												<input multiple="" type="file" autocomplete="off" tabindex="-1" style="display: none;">
+												<div class="mb-3">
+													<i class="display-4 text-muted fas fa-cloud-upload"></i>
+												</div>
+												<h4>Drop files here or click to upload.</h4>
+											</div>
+										</div>
+										<div class="dropzone-previews mt-3" id="file-previews"></div>
+									</form>
+								</div>
+								<div id="menu2" class="tab-pane fade"><br>
+									<div class="h4 card-title">Meta Data</div>
+									<p class="card-title-desc">Fill all information below</p>
+									<form>
+										<div class="row">
+											<div class="col-lg-6">
+												<div class="mb-3">
+													<label for="manufacturerbrand" class="form-label">Meta Title</label>
+													<input id="metatitle" name="manufacturerbrand" type="text" class="form-control form-control">
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div class="mb-3">
+													<label for="price" class="form-label">Meta Keywords</label>
+													<input id="metaKeywords" name="price" type="text" class="form-control form-control">
+												</div>
+											</div>
+										</div>
+										<div class="mb-3">
+											<label for="metadescription" class="">Meta Description
+											</label>
+											<textarea class="form-control" id="metadescription" rows="5">
+												
+											</textarea>
+										</div>
+										<div class="text-center mt-4">
+											<button type="submit" class="me-1 btn btn-primary">Save Changes</button> 
+											<button type="submit" class="btn btn-light">Cancel</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+</div>
+
+</body>
+<script type="text/javascript">
+
+</script>
+</html>

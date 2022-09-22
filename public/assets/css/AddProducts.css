@@ -1,0 +1,162 @@
+.breadcrumb {
+    list-style: none;
+    background-color: #f1f5f7!important;
+}
+a, button {
+    outline: none!important;
+}
+a {
+    text-decoration: none!important;
+}
+.nav-justified .nav-item, .nav-justified>.nav-link {
+    -webkit-flex-basis: 0;
+    flex-basis: 0;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    text-align: center;
+}
+.nav-pills .nav-link {
+    background: none;
+    border: 0;
+    border-radius: 0.25rem;
+}
+.twitter-wizard .twitter-wizard-nav .nav-link.active .step-number {
+    background-color: #5664d2;
+    color: #fff;
+}
+.twitter-wizard .twitter-wizard-nav .nav-link.active {
+    background-color: transparent;
+    color: #505d69;
+}
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link {
+    width: 100%;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #5664d2;
+}
+.nav-pills>a, .nav-pills>li>a, .nav-tabs>li>a {
+    color: #505d69;
+    font-weight: 500;
+}
+.nav-link {
+    cursor: pointer;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #5664d2;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.twitter-wizard .twitter-wizard-nav .step-number {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    line-height: 34px;
+    border: 2px solid #5664d2;
+    color: #5664d2;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    background-color: #fff;
+}
+.twitter-wizard .twitter-wizard-nav .nav-link .step-title {
+    display: block;
+    margin-top: 8px;
+    font-weight: 600;
+}
+.twitter-wizard .twitter-wizard-nav:before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #f1f5f7;
+    position: absolute;
+    left: 0;
+    top: 48px;
+}       
+.twitter-wizard .twitter-wizard-pager-link li.disabled a {
+    cursor: not-allowed;
+    background-color: #7682db;
+}
+.twitter-wizard .twitter-wizard-pager-link li a {
+  
+    padding: 0.47rem 0.75rem;
+    background-color: #5664d2;
+    color: #fff;
+    border-radius: 0.25rem;
+}
+.twitter-wizard .twitter-wizard-pager-link {
+    padding-top: 24px;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+.twitter-wizard .twitter-wizard-pager-link li.next {
+    float: right;
+}
+.twitter-wizard .twitter-wizard-pager-link li {
+    display: inline-block;
+}
+.twitter-bs-wizard .twitter-wizard-pager-link {
+    padding-top: 24px;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+.avatar-md {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.card-title {
+    font-size: 15px;
+    margin: 0 0 7px;
+    font-weight: 500;
+}
+.card-title-desc {
+    color: #74788d;
+    margin-bottom: 24px;
+}
+.dropzone {
+    min-height: 230px;
+    border: 2px dashed #ced4da;
+    background: #fff;
+    border-radius: 6px;
+}
+.dropzone .dz-message {
+    font-size: 24px;
+    width: 100%;
+}
+.dz-message {
+    text-align: center;
+    padding: 0;
+    margin: 2em 0;
+}
+input[type="file" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    align-items: baseline;
+    color: inherit;
+    text-overflow: ellipsis;
+    white-space: pre;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+    overflow: hidden !important;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.47rem 0.75rem;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #505d69;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
